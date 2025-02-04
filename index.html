@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Adoraaaaa</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="initial-page">
+            <h2>Dear Daphne, will you be my valentine?<3</h2>
+            <img src="/loveyou-ted.gif" alt="" width="400" height="500">
+            
+            <div>
+                <button class="yes" onclick="askConfirmation()">Yes</button>
+                <button class="no" onclick="handleNoClick()">No</button>
+            </div>
+        </div>
+
+        <div id="confirmation-page" style="display: none;">
+            <h2> YEESSSSSS!!??</h2>
+            <img src="/tobey-maguire-glasses.gif" alt="" width="600" height="400">
+            <div>
+                <button class="yes" onclick="showYayPage()">Yes</button>
+                <button class="no" onclick="handleNoClick()">No</button>
+            </div>
+        </div>
+
+        <div id="yay-page" style="display: none;">
+            <h2>BOOOOOOM BOOOOM BOOOOOOOM ! ISSAA DATEEEEE</h2>
+            <img src="/homem-aranha-tobey-maguire.gif"" width="400" height="500">
+          
+        </div>
+
+        <div id="sad-gif" style="display: none;">
+            
+            <img src="/mets-baseball.gif" alt="" width="500" height="500">
+            <div>
+                <button id="Yes I will be your valentines" onclick="showYayPage()">Come On Now!</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
